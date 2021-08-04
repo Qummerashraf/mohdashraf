@@ -1,13 +1,211 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0%;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none !important;
+  font-weight: 500;
+}
+
+ul {
+  padding-inline-start: 0%;
+}
+
+li {
+  list-style: none;
+}
+
+[iframe] {
+  border: none;
+}
+
+body {
+  background-color: rgb(37, 37, 37) !important;
+  position: relative;
+  color: white !important;
+  font-family: "Lora", Helvetica, Arial, sans-serif !important;
+  font-weight: 500, 600;
+  scroll-behavior: smooth;
+  overflow: auto;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.container {
+  max-width: 1200px !important;
+  padding: 0px 15px !important;
+  margin: auto !important;
+  position: relative;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+[class^="col-"] {
+  padding: 0px 15px;
+  flex: 1 1;
+}
+
+.col-1 {
+  flex-basis: 8.33%;
+}
+
+.col-2 {
+  flex-basis: 16.66%;
+}
+
+.col-3 {
+  flex-basis: 25%;
+}
+
+.col-4 {
+  flex-basis: 33.33%;
+}
+
+.col-5 {
+  flex-basis: 41.66%;
+}
+
+.col-6 {
+  flex-basis: 50%;
+}
+
+.col-7 {
+  flex-basis: 58.33%;
+}
+
+.col-8 {
+  flex-basis: 66.66%;
+}
+
+.col-9 {
+  flex-basis: 75%;
+}
+
+.col-10 {
+  flex-basis: 83.33%;
+}
+
+.col-11 {
+  flex-basis: 91.66%;
+}
+
+.col-12 {
+  flex-basis: 100%;
+}
+
+::-webkit-scrollbar {
+  scroll-behavior: smooth;
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(100, 100, 100);
+  border-radius: 10px;
+}
+
+.wrap-mobile {
+  display: none;
+  height: 70px;
+  background-color: black;
+  position: relative;
+}
+
+.wrap-mobile .col-8 {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.wrap-mobile .col-4 {
+  display: block;
+  text-align: right;
+  margin-top: 15px;
+}
+
+#open-mobile-menu {
+  position: relative;
+  right: 10px;
+  cursor: pointer;
+  font-size: 26px;
+}
+
+#mobile-logo {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#home {
+  animation: fadeInAnimation ease-in-out 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+#resume,
+#about-me,
+#portfolio,
+#blog,
+#contact {
+  background: url(..//src/img/react.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+  background-attachment: fixed;
+  animation: fadeInAnimation ease-in-out 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.resume-header,
+.about-header,
+.portfolio-header,
+.contact-header,
+.blog-header {
+  text-align: center;
+}
+
+.resume-header p,
+.about-header p,
+.portfolio-header p,
+.contact-header p,
+.blog-header p {
+  color: #ffb135;
+  font-size: 20px;
+}
+
+.resume-header h1,
+.about-header h1,
+.portfolio-header h1,
+.contact-header h1,
+.blog-header h1 {
+  color: white;
+  font-size: 36px;
+  padding: 15px;
+}
+
+hr {
+  text-align: center;
+  border: none;
+  background-color: #ffb135;
+  width: 100px;
+  height: 3px;
+  margin: 0px auto;
 }

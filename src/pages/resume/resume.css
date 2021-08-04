@@ -1,0 +1,95 @@
+.resume {
+  padding-top: 50px;
+}
+.resume-btn h2 {
+  display: inline-block;
+  padding: 15px;
+  margin: 20px 0px;
+  font-size: 26px;
+  border: 3px solid rgba(128, 128, 128, 0.562);
+  border-radius: 2%;
+}
+
+.services {
+  font-size: 14px;
+  display: flex;
+  padding: 20px 0px 20px 10px;
+}
+
+.services span {
+  color: #ffb135;
+  font-size: 24px;
+  padding: 5px 10px;
+}
+
+.service-content {
+  padding: 0px 0px 0px 10px;
+}
+
+.service-content p {
+  line-height: 2;
+}
+
+.resume-content {
+  margin: 50px 0px;
+}
+
+.res-content {
+  margin: 30px 0px;
+}
+
+.res-content h4 {
+  padding: 10px 0px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #ffb135;
+}
+
+.res-content h3 {
+  padding: 10px 0px;
+}
+
+.res-content h3 span {
+  color: #ffb135;
+}
+
+.res-content h3 span::before {
+  content: "  -  ";
+}
+
+.res-content p {
+  line-height: 1.8;
+  color: rgb(214, 214, 214);
+}
+
+.res-content h3 span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.resume-content li::before {
+  content: " * ";
+  display: inline-block;
+  font-size: 30px;
+  position: relative;
+  top: 42px;
+  left: -25px;
+}
+
+.skill ol li {
+  padding: 25px 0px;
+}
+
+.skill ol li h3 {
+  padding: 10px 0px;
+  color: #ffb135;
+}
+
+.skill ol li h5 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.resume-header {
+  text-align: center;
+}

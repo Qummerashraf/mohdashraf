@@ -1,0 +1,8 @@
+#cover {
+  position: fixed;
+  background-color: #ffb135;
+  width: 100%;
+  height: 100%;
+  z-index: 1001;
+  transition: 1s ease-in;
+}

@@ -1,0 +1,49 @@
+.portfolio {
+  padding-top: 50px;
+}
+
+.portfolio-header {
+  text-align: center;
+}
+
+.block-tabs {
+  display: flex;
+  margin: 40px 0px;
+  justify-content: center;
+}
+
+.tabs {
+  text-align: center;
+  display: flex;
+  margin: 0%;
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.tabs-active {
+  background-color: orangered;
+}
+
+.content {
+  display: none;
+}
+.active-content {
+  display: block;
+}
+
+.projects {
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.projects img {
+  border-radius: 10%;
+  transition: transform 500ms linear;
+  border: none;
+}
+
+.projects img:hover {
+  transform: scale(1.06);
+}

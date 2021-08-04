@@ -1,0 +1,60 @@
+.about-content {
+  margin: 40px 0px;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  padding: 0px 0px 20px 0px;
+}
+
+.about-content span {
+  color: #ffb135;
+}
+
+.about-content p:first-of-type {
+  text-align: justify;
+  padding: 15px 0px 20px 0px;
+}
+
+.about-content p {
+  padding: 10px 0px;
+}
+
+.about-content p span {
+  padding: 0px 10px 0px 0px;
+}
+
+.about-content p a {
+  color: white;
+}
+
+.about-img {
+  background-image: url("../../img/myAvatar.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10%;
+  border: none;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.about-header {
+  text-align: center;
+}
+
+.about-me {
+  padding-top: 50px;
+}
+
+.flag {
+  width: 25px;
+}

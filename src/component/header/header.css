@@ -1,0 +1,54 @@
+.header {
+  line-height: 6rem !important;
+}
+
+#logo {
+  text-transform: capitalize;
+  font-size: 24px;
+  margin: auto !important;
+  font-weight: 600;
+}
+
+#logo a {
+  color: white;
+}
+
+nav {
+  text-align: center;
+  font-family: "Lora", sans-serif;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: 500;
+  font: 16px;
+}
+
+nav ul li a:hover {
+  color: #ffb135;
+}
+
+#social-icons ul li {
+  padding: 0%;
+}
+
+#social-icons ul li a {
+  padding: 8px;
+}
+
+#social-icons ul li a:hover {
+  background-color: #ffb135;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    display: none !important;
+  }
+}

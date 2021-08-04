@@ -1,0 +1,53 @@
+
+.main-home {
+    background: url(..//..//img/Hire-ReactJs-Development.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 1%;
+    min-height: 82vh;
+  }
+  
+  .home-content p {
+    min-height: 80px;
+    margin-top: 30px;
+  }
+  
+  .home-content p a {
+    font-size: 24px !important;
+    text-decoration: none !important;
+  
+  }
+  
+  .home-content span {
+    border-bottom: 4px solid #ffb135;
+  }
+  
+  .home-content h1 {
+    max-width: 570px;
+    font-size: 44px !important;
+    line-height: 4rem !important;
+    font-weight: 600;
+  
+  }
+  
+  .home-content button {
+    margin: 55px 0px;
+    padding: 15px 30px;
+    border-radius: 5%;
+    background-color: #ffb135;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .home-content a {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .home-content button:hover {
+    text-shadow: 0px 0px 4px 2px white;
+  }
+  
